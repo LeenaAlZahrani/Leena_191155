@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5CB9FD"
+    tools:context=".Home_Firebase">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+android:layout_below="@+id/homeTitle"
+        android:src="@drawable/logofire"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+        <Button
+            android:id="@+id/insertuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Add New User" />
+
+        <Button
+            android:id="@+id/getuserr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Fetch Specific User" />
+
+        <Button
+            android:id="@+id/fetchuserr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Fetch All User with delete and update" />
+    </LinearLayout>
+
+</RelativeLayout>

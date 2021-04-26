@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5CB9FD"
+    tools:context=".editUser">
+
+    <TextView
+        android:id="@+id/editUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit user"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/editfirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_below="@+id/editUser"
+        android:layout_marginTop="30sp"
+
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+
+    <EditText
+        android:id="@+id/editlastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_below="@+id/editfirstName"
+        android:layout_marginTop="30sp"
+
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_below="@+id/editlastName"
+        android:layout_marginTop="30sp"
+
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <EditText
+        android:id="@+id/editemailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_below="@+id/editPhoneNumber"
+        android:layout_marginTop="30sp"
+
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_below="@+id/editemailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/deletButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:textSize="12sp"
+            android:text="Delet" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:textSize="12sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+
+            android:text="Edit" />
+
+
+        <Button
+            android:id="@+id/addFavorite"
+            android:textSize="12sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add user to sqlite db" />
+    </LinearLayout>
+
+
+</RelativeLayout>

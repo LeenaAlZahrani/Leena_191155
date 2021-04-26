@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578759741205",
+    "project_id": "leena---191155",
+    "storage_bucket": "leena---191155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578759741205:android:bbdf6b6b4d29f6e887e31c",
+        "android_client_info": {
+          "package_name": "com.Leena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578759741205-nv74m3bfvvr49h2hsiircuo76sr8omo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWSUn92pCgFc2zL9Upt_ntOk-bx0WDV0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578759741205-nv74m3bfvvr49h2hsiircuo76sr8omo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

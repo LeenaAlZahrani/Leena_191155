@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/bgforapp3"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Leena Project"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+
+
+/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+        <Button
+            android:id="@+id/fireBaseApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goFireBase"
+            android:text="FIREBASE DATABASE" />
+
+        <Button
+            android:id="@+id/SQLLiteApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goSqlite"
+
+            android:text="LOCAL SQL DATABASE" />
+
+        <Button
+            android:id="@+id/WeatherApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goWeather"
+            android:text="WEATHER APP" />
+    </LinearLayout>
+
+
+</RelativeLayout>
